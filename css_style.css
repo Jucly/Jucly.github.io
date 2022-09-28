@@ -1,2 +1,47 @@
+* {
+    font-weight: bold;
+    font-style: normal;
+    font-family: Georgia, sans-serif;
+}
+
+.header {
+    font-weight: bold;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 25px 0;
+    max-width: 2200px;
+}
+
+.container {
+    max-width: px;
+}
+
+.main-title {
+    display: flex;
+    padding-left: 35px; /* убирает отступы слева */
+    margin: 0 auto 10px 0; /* убирает поля со всех сторон */
+}
+
+.menu ul {
+    list-style: none;  /* убирает маркеры перед списком */
+    display: flex;
+    margin-left: 25px;
+}
+
+.menu-item {
+    display: block;
+    margin-left: 125px;
+    text-align: right;
+}
+
+.menu-item a {
+    display: block;
+    font-size: 15px;
+    color: #030305;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    border-bottom: 1px solid black;
+}
 
 

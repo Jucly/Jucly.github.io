@@ -11,8 +11,7 @@
 }
 
 .container {
-    max-width: 1920px;
-    margin: 0 auto;
+
 }
 
 .main {
@@ -25,8 +24,8 @@
     border: none;
     display: flex;
     color: midnightblue;
-    margin-left: 15px;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 1px;
     /* margin: 0 auto 10px 0;  убирает поля со всех сторон */
 }
 
@@ -35,7 +34,7 @@
     border: none;
     text-align: left;
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 1px;
     color: midnightblue;
     /* margin: 0 auto 10px 0;  убирает поля со всех сторон */
@@ -51,12 +50,12 @@
 .menu-item {
     display: inline-block;
     text-align: left;
-    margin: 10px 46px 2px 160px;
+    margin: 9px 40px 2px 110px;
 }
 
 .menu-item a {
     display: block;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     color: midnightblue;
 }
@@ -68,7 +67,7 @@
 .photo img {
     width: 400px;
     height: 570px;
-    margin: 10px 300px 40px 975px;
+    margin: 10px 250px 40px 760px;
 
 }
 

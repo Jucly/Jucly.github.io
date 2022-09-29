@@ -5,32 +5,53 @@
 }
 
 .header {
-    font-weight: bold;
     border-bottom: 1px solid #E5E5E5;
     padding: 25px 0;
-    max-width: 2200px;
 }
 
 .container {
-    max-width: px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
-.main-title {
-    display: flex;
-    padding-left: 35px; /* убирает отступы слева */
-    margin: 0 auto 10px 0; /* убирает поля со всех сторон */
+.main {
+    vertical-align: bottom;
+    text-align: right;
 }
 
-.menu ul {
+.main-title-1 {
+    /* padding-left: 45px; убирает отступы слева */
+    border: none;
+    text-align: left;
+    margin-left: 34px;
+    margin-top: 5px;
+    /* margin: 0 auto 10px 0;  убирает поля со всех сторон */
+
+}
+
+.main-title-2 {
+    /* padding-left: 45px; убирает отступы слева */
+    border: none;
+    text-align: left;
+    margin-left: 34px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    /* margin: 0 auto 10px 0;  убирает поля со всех сторон */
+
+}
+
+.menu {
     list-style: none;  /* убирает маркеры перед списком */
-    display: flex;
-    margin-left: 25px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 47px;
 }
 
 .menu-item {
-    display: block;
-    margin-left: 125px;
-    text-align: right;
+    display: inline-block;
+    text-align: center;
+    margin: 2px 116px 2px 216px;
 }
 
 .menu-item a {
@@ -42,6 +63,12 @@
 
 .menu-item a:hover {
     border-bottom: 1px solid black;
+}
+
+.photo img {
+    width: 450px;
+    height: 650px;
+
 }
 
 

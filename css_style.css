@@ -22,8 +22,9 @@
 .main-title-1 {
     /* padding-left: 45px; убирает отступы слева */
     border: none;
-    text-align: left;
-    margin-left: 34px;
+    display: flex;
+    color: midnightblue;
+    margin-left: 20px;
     margin-top: 5px;
     /* margin: 0 auto 10px 0;  убирает поля со всех сторон */
 
@@ -33,9 +34,10 @@
     /* padding-left: 45px; убирает отступы слева */
     border: none;
     text-align: left;
-    margin-left: 34px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 1px;
+    color: midnightblue;
 
     /* margin: 0 auto 10px 0;  убирает поля со всех сторон */
 
@@ -50,15 +52,16 @@
 
 .menu-item {
     display: inline-block;
-    text-align: center;
-    margin: 2px 116px 2px 216px;
+    text-align: left;
+    margin: 10px 76px 2px 200px;
 }
 
 .menu-item a {
     display: block;
-    font-size: 15px;
+    font-size: 17px;
     color: #030305;
     text-decoration: none;
+    color: midnightblue;
 }
 
 .menu-item a:hover {

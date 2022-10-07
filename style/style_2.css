@@ -1,0 +1,47 @@
+* {
+    background-color: rgb(249, 234, 253);
+    font-family: "Roboto Thin";
+
+}
+
+@font-face {
+    font-family: "Roboto Thin"; /* Гарнитура шрифта */
+    src: url(../fonts/Roboto-Thin.ttf); /* Путь к файлу со шрифтом */
+}
+
+.container {
+    display: grid;
+
+    border: 2px solid red;
+}
+
+.block {
+    border: 2px solid black;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.block h3 {
+    border: 2px solid black;
+    
+    margin-left: 100px;
+
+}
+
+
+.brd {
+    max-width: 100%;
+    border: 2px solid red;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+    padding-left: 110px;
+}
+
+.brd1 {
+    max-width: 100%;
+    border: 2px solid red;
+    margin: 5% 5% 5% 0.5%;
+
+}

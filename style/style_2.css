@@ -10,38 +10,27 @@
 }
 
 .container {
-    display: grid;
-
-    border: 2px solid red;
+    display: flex;
+    margin-top: 13%;
 }
 
 .block {
-    border: 2px solid black;
-    margin-bottom: 5px;
-    display: flex;
+    margin-left: 7%;
 }
 
-.block h3 {
-    border: 2px solid black;
-    
-    margin-left: 100px;
-
+.brd .brd1 {
+    margin-bottom: 2%;
 }
 
 
-.brd {
-    max-width: 100%;
-    border: 2px solid red;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-
-    padding-left: 110px;
+.brd a {
+    font-weight: bolder;
 }
 
-.brd1 {
-    max-width: 100%;
-    border: 2px solid red;
-    margin: 5% 5% 5% 0.5%;
+.brd1 a {
+    font-weight: bolder;
+}
 
+.title {
+    text-decoration: underline;
 }
